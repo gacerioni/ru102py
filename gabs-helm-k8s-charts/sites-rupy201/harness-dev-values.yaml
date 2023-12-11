@@ -37,10 +37,10 @@ persistence:
 resources:
   limits:
    cpu: '0.5'
-   memory: '1Gi'
+   memory: '250Mi'
   requests:
    cpu: '0.5'
-   memory: '1Gi'
+   memory: '250Mi'
 
 
 # VOLUMES FOR APPD and ET HARNESS WILL BE HARDCODED IN THE DEPLOYMENT BECAUSE I AM USING MULTIPLE CONTAINERS AND INIT CONTAINERS
