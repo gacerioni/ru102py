@@ -8,3 +8,5 @@ WORKDIR /src
 RUN make env
 
 ENV IS_CI=true
+
+#ENTRYPOINT ["make", "dev"]
